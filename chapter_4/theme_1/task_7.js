@@ -1,0 +1,13 @@
+let num1 = Number(prompt())
+let num2 = Number(prompt())
+if (num1 > num2) {
+    while (num1 >= num2) {
+        console.log(num1)
+        num1--
+    }
+} else if (num1 < num2) {
+    while (num1 <= num2) {
+        console.log(num1)
+        num1++
+    }
+}
